@@ -60,7 +60,8 @@ textarea:focus,
 
 @media screen and (min-width: 1024px) {
     .container {
-        max-width: 95%;
+        width: 95%;
+        max-width: 1200px;
     }
 }
 
@@ -324,11 +325,13 @@ body {
     transition: .3s all ease;
 }
 
-.header .header-bottom .header-bottom_bar > ul > li:first-of-type {
+.header .header-bottom .header-bottom_bar > ul > li:first-of-type,
+.header .header-bottom .header-bottom_bar > ul > li:nth-child(2){
     margin-left: 0;
 }
 
-.header .header-bottom .header-bottom_bar > ul > li:last-of-type {
+.header .header-bottom .header-bottom_bar > ul > li:last-of-type,
+.header .header-bottom .header-bottom_bar > ul > li:nth-last-child(2){
     margin-right: 0;
 }
 
