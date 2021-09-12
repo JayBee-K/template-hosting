@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da17bf8f-2c19-48cd-a062-377f200520eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-light-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-light-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-light-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-light-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-light-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/flag/flag_gb.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/flag/flag_jp.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/flag/flag_kr.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/footer/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/global.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/allservice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/application.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/domain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/hosting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/servers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/service.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/ssl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/support.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/language/brazil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/language/india.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/language/indonesia.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/language/turkey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/language/united-states-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/language/united-states.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/language/vietnam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/offers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/security/googleauth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/security/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/security/mobile-phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/security/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/theme-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/particles-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/swiper/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/swiper/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/swiper/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plugin/swiper/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hosting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thong-tin-tai-khoan.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xUdz3uiTzDpJ96K5OEQBzUehBt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Source-aNeo\template-hosting" />
+      <recent name="F:\Source-aNeo\template-hosting\assets\plugin" />
+      <recent name="F:\Source-aNeo\template-hosting\assets\images" />
+      <recent name="F:\Source-aNeo\template-hosting\assets" />
+      <recent name="F:\Source-aNeo\template-hosting\panel\assets\fonts\fontawesome" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Source-aNeo\template-hosting\assets\images\language" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da17bf8f-2c19-48cd-a062-377f200520eb" name="Default Changelist" comment="" />
+      <created>1630413866585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630413866585</updated>
+      <workItem from="1630413871336" duration="1994000" />
+      <workItem from="1630459049553" duration="601000" />
+      <workItem from="1630467150187" duration="2617000" />
+      <workItem from="1630485565902" duration="940000" />
+      <workItem from="1630560869090" duration="7995000" />
+      <workItem from="1630581044601" duration="7098000" />
+      <workItem from="1630631365870" duration="89000" />
+      <workItem from="1630641690989" duration="3375000" />
+      <workItem from="1630656523946" duration="10974000" />
+      <workItem from="1630717537827" duration="602000" />
+      <workItem from="1630722785213" duration="3420000" />
+      <workItem from="1630747249133" duration="604000" />
+      <workItem from="1630828169542" duration="7115000" />
+      <workItem from="1630843329202" duration="2832000" />
+      <workItem from="1630851818501" duration="17000" />
+      <workItem from="1630922688124" duration="6609000" />
+      <workItem from="1630938442286" duration="46000" />
+      <workItem from="1631162124215" duration="32000" />
+      <workItem from="1631190659311" duration="145000" />
+      <workItem from="1631268217452" duration="1054000" />
+      <workItem from="1631275449416" duration="4747000" />
+      <workItem from="1631323558396" duration="66000" />
+      <workItem from="1631343840753" duration="4402000" />
+      <workItem from="1631361139152" duration="4984000" />
+      <workItem from="1631417898577" duration="8023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

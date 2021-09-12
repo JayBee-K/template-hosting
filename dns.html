@@ -1,0 +1,774 @@
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+	
+	<meta itemprop="name" content="">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta property="og:locale" content="">
+	<meta property="og:type" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	
+	<meta name="twitter:card" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:image" content="">
+	<meta name="twitter:creator" content="">
+	
+	<title>Dashboard - Nencer.vn</title>
+	
+	<link rel="stylesheet" href="./assets/plugin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugin/select2/select2.min.css">
+	<link rel="stylesheet" href="./assets/plugin/swiper/swiper.css">
+	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	
+	<script type="text/javascript" src="./assets/plugin/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/select2/select2.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/swiper/swiper.js"></script>
+	<script type="text/javascript" src="./assets/plugin/particles-js.js"></script>
+	<script type="text/javascript" src="./assets/js/theme-script.js"></script>
+	<style>
+		:root {
+			--color-main: #2879ff;
+			--color-hover: #0b3c8c;
+		}
+	</style>
+</head>
+<body class="body-dashboard">
+<div class="sidebar" id="navigation">
+	<div class="d-lg-none bg-light py-2">
+		<ul class="list-unstyled mb-0 d-flex align-items-center justify-content-center">
+			<li>
+				<a href="" class="link-header">
+					<span><i class="fal fa-dollar-sign"></i></span>
+					Số dư: 199.000 <sup>đ</sup>
+				</a>
+				<a href="" class="link-header">
+					Dashboard
+				</a>
+				<a href="" class="link-header">
+					DNS
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sidebar-logo">
+		<a href="" class="d-inline-block">
+			<img src="./assets/images/logo-white.png" alt="">
+		</a>
+		<div class="ml-auto d-flex d-lg-none">
+			<a class="action-mobile" href="javascript:void(0)">
+				<i class="fas fa-envelope"></i>
+			</a>
+			<div class="d-block">
+				<a class="action-mobile d-none" href="javascript:void(0)">
+					<i class="fas fa-sign-in"></i>
+				</a>
+			</div>
+			<div class="theme-action d-none" theme-position="right" theme-action="dropdown">
+				<a class="action-mobile" href="javascript:void(0)">
+					<i class="fas fa-user-circle"></i>
+				</a>
+				<ul class="list-unstyled mb-0">
+					<li>
+						<a href="#">
+							Thông tin cá nhân
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Lịch sử giao dịch
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Bảo mật tài khoản
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Thông báo
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Đổi mật khẩu
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Đăng xuất
+						</a>
+					</li>
+				</ul>
+			</div>
+			<a href="javascript:void(0)" theme-action="navigation"
+			   class="action-navigation no-animation">
+				<i></i>
+				<i></i>
+				<i></i>
+			</a>
+		</div>
+	</div>
+	<div class="sidebar-list">
+		<ul class="list-unstyled mb-0">
+			<li>
+				<a href="#" class="d-inline-block">
+					<img src="./assets/images/icon/allservice.svg" alt="">
+					Tất cả dịch vụ
+				</a>
+			</li>
+			<li>
+				<a href="#" class="d-inline-block">
+					<img src="./assets/images/icon/hosting.svg" alt="">
+					Hosting
+				</a>
+			</li>
+			<li class="active">
+				<a href="" class="d-inline-block">
+					<img src="./assets/images/icon/domain.svg" alt="">
+					Tên miền
+				</a>
+			</li>
+			<li>
+				<a href="" class="d-inline-block">
+					<img src="./assets/images/icon/servers.svg" alt="">
+					Mảy chủ ảo
+				</a>
+			</li>
+			<li>
+				<a href="" class="d-inline-block">
+					<img src="./assets/images/icon/server.svg" alt="">
+					Mảy chủ vật lý
+				</a>
+			</li>
+			<li>
+				<a href="" class="d-inline-block">
+					<img src="./assets/images/icon/ssl.svg" alt="">
+					Chứng chỉ SSL
+				</a>
+			</li>
+			<li>
+				<a href="" class="d-inline-block">
+					<img src="./assets/images/icon/email.svg" alt="">
+					Email
+				</a>
+			</li>
+			<li>
+				<a href="" class="d-inline-block">
+					<img src="./assets/images/icon/application.svg" alt="">
+					Phần mềm
+				</a>
+			</li>
+			<li>
+				<a href="" class="d-inline-block">
+					<img src="./assets/images/icon/support.svg" alt="">
+					Dịch vụ hỗ trợ
+				</a>
+			</li>
+			<li>
+				<a href="" class="d-inline-block">
+					<img src="./assets/images/icon/service.svg" alt="">
+					Dịch vụ
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sidebar-overlay" theme-action="overlay"></div>
+</div>
+<div class="main">
+	<div class="header d-none d-lg-block">
+		<div class="d-flex align-items-center position-relative px-4">
+			<div class="header_news">
+				<span>News:</span>
+				<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+			</div>
+			<div class="header_actions">
+				<ul class="list-unstyled mb-0 d-flex align-items-center">
+					<li>
+						<a href="" class="link-header">
+							<span><i class="fal fa-dollar-sign"></i></span>
+							Số dư: 199.000 <sup>đ</sup>
+						</a>
+						<a href="" class="link-header">
+							Dashboard
+						</a>
+						<a href="" class="link-header">
+							DNS
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-envelope"></i>
+						</a>
+					</li>
+					<li class="theme-action" theme-position="right" theme-action="dropdown">
+						<a href="javascript:void(0)">
+							<i class="fas fa-sign-in"></i>
+							<span>Đăng nhập</span>
+						</a>
+					</li>
+					<li class="theme-action d-none" theme-position="right" theme-action="dropdown">
+						<a href="javascript:void(0)">
+							<i class="fas fa-user-circle"></i>
+							<span>Nguyen Van Nghia</span>
+							<i class="fal fa-angle-down arrow"></i>
+						</a>
+						<ul class="list-unstyled mb-0">
+							<li>
+								<a href="#">
+									Thông tin cá nhân
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Lịch sử giao dịch
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Bảo mật tài khoản
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Thông báo
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Đổi mật khẩu
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Đăng xuất
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="body">
+		<div class="heading">
+			Thông tin DNS
+		</div>
+		<div class="tab-theme">
+			<ul class="nav nav-tabs" id="myTab">
+				<li class="nav-item">
+					<a class="nav-link active" id="thongtintaikhoan-tab" data-toggle="tab" href="#listdns">
+						Danh sách bản ghi
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="doimatkhau-tab" data-toggle="tab" href="#nameserver">
+						Danh sách nameserver
+					</a>
+				</li>
+			</ul>
+			<div class="quick-action">
+				<a href="javascript:void(0)">
+					<i></i>
+				</a>
+				<ul class="list-unstyled mb-0">
+					<li>
+						<a href="">
+							<i class="fas fa-credit-card"></i>
+							Add Credits
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-credit-card"></i>
+							Add Credits
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-credit-card"></i>
+							Add Credits
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content">
+				<div class="tab-pane fade show active" id="listdns">
+					<div class="message-panel panel-success">
+						<!--
+							có 5 class màu:
+							- panel-info,
+							- panel-warning,
+							- panel-danger,
+							- panel-success,
+							- panel-secondary
+						-->
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, culpa?
+						<a href="javascript:void(0)" theme-action="dismiss-messege"
+						   class="float-lg-right text-decoration-underline">
+							Dismiss
+						</a>
+					</div>
+					<div class="container mx-0 px-0">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="table-theme">
+									<div class="row">
+										<div class="col-12">
+											<h4 class="table-heading">
+												Danh sách bản ghi
+											</h4>
+										</div>
+										<div class="col-12">
+											<div class="table-responsive">
+												<table class="table">
+													<thead>
+													<tr>
+														<th>
+															Tên
+														</th>
+														<th>
+															Loại
+														</th>
+														<th>
+															Giá trị
+														</th>
+														<th>
+															TTL
+														</th>
+														<th>
+															Prio
+														</th>
+														<th>
+														</th>
+													</tr>
+													</thead>
+													<tbody>
+													<tr>
+														<td>
+															<div class="bold">
+																@
+															</div>
+														</td>
+														<td>
+															<div class="text">
+																A
+															</div>
+														</td>
+														<td>
+															<div theme-action="edit">
+																<div class="bold element">
+																	103.109.43.198
+																	<a href="javascript:void(0)" data-toggle="tooltip"
+																	   title="Chỉnh sửa">
+																		<i class="fal fa-pencil-alt"></i>
+																	</a>
+																</div>
+																<div class="input element">
+																	<input type="text" placeholder=""
+																	       style="width: 115px"
+																	       value="103.109.43.198" class="form-control">
+																	<a href="javascript:void(0)" class="text-danger"
+																	   data-toggle="tooltip"
+																	   title="Huỷ">
+																		<i class="fal fa-times"></i>
+																	</a>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div theme-action="edit">
+																<div class="bold element">
+																	3600
+																	<a href="javascript:void(0)" data-toggle="tooltip"
+																	   title="Chỉnh sửa">
+																		<i class="fal fa-pencil-alt"></i>
+																	</a>
+																</div>
+																<div class="input element">
+																	<input type="text" placeholder=""
+																	       style="width: 40px"
+																	       value="3600" class="form-control">
+																	<a href="javascript:void(0)" class="text-danger"
+																	   data-toggle="tooltip"
+																	   title="Huỷ">
+																		<i class="fal fa-times"></i>
+																	</a>
+																</div>
+															</div>
+														</td>
+														<td>
+														</td>
+														<td>
+															<div class="table-action">
+																<button class="btn-theme btn-theme_primary">
+																	Cập nhật
+																</button>
+																<button class="btn-theme btn-theme_delete">
+																	Xoá
+																</button>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="bold">
+																WWW
+															</div>
+														</td>
+														<td>
+															<div class="text">
+																A
+															</div>
+														</td>
+														<td>
+															<div theme-action="edit">
+																<div class="bold element">
+																	103.109.43.198
+																	<a href="javascript:void(0)" data-toggle="tooltip"
+																	   title="Chỉnh sửa">
+																		<i class="fal fa-pencil-alt"></i>
+																	</a>
+																</div>
+																<div class="input element">
+																	<input type="text" placeholder=""
+																	       style="width: 115px"
+																	       value="103.109.43.198" class="form-control">
+																	<a href="javascript:void(0)" class="text-danger"
+																	   data-toggle="tooltip"
+																	   title="Huỷ">
+																		<i class="fal fa-times"></i>
+																	</a>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div theme-action="edit">
+																<div class="bold element">
+																	3600
+																	<a href="javascript:void(0)" data-toggle="tooltip"
+																	   title="Chỉnh sửa">
+																		<i class="fal fa-pencil-alt"></i>
+																	</a>
+																</div>
+																<div class="input element">
+																	<input type="text" placeholder=""
+																	       style="width: 40px"
+																	       value="3600" class="form-control">
+																	<a href="javascript:void(0)" class="text-danger"
+																	   data-toggle="tooltip"
+																	   title="Huỷ">
+																		<i class="fal fa-times"></i>
+																	</a>
+																</div>
+															</div>
+														</td>
+														<td>
+														</td>
+														<td>
+															<div class="table-action">
+																<button class="btn-theme btn-theme_primary">
+																	Cập nhật
+																</button>
+																<button class="btn-theme btn-theme_delete">
+																	Xoá
+																</button>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="bold">
+																@
+															</div>
+														</td>
+														<td>
+															<div class="text">
+																A
+															</div>
+														</td>
+														<td>
+															<div theme-action="edit">
+																<div class="bold element">
+																	103.109.43.198
+																	<a href="javascript:void(0)" data-toggle="tooltip"
+																	   title="Chỉnh sửa">
+																		<i class="fal fa-pencil-alt"></i>
+																	</a>
+																</div>
+																<div class="input element">
+																	<input type="text" placeholder=""
+																	       style="width: 115px"
+																	       value="103.109.43.198" class="form-control">
+																	<a href="javascript:void(0)" class="text-danger"
+																	   data-toggle="tooltip"
+																	   title="Huỷ">
+																		<i class="fal fa-times"></i>
+																	</a>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div theme-action="edit">
+																<div class="bold element">
+																	3600
+																	<a href="javascript:void(0)" data-toggle="tooltip"
+																	   title="Chỉnh sửa">
+																		<i class="fal fa-pencil-alt"></i>
+																	</a>
+																</div>
+																<div class="input element">
+																	<input type="text" placeholder=""
+																	       style="width: 40px"
+																	       value="3600" class="form-control">
+																	<a href="javascript:void(0)" class="text-danger"
+																	   data-toggle="tooltip"
+																	   title="Huỷ">
+																		<i class="fal fa-times"></i>
+																	</a>
+																</div>
+															</div>
+														</td>
+														<td>
+														</td>
+														<td>
+															<div class="table-action">
+																<button class="btn-theme btn-theme_primary">
+																	Cập nhật
+																</button>
+																<button class="btn-theme btn-theme_delete">
+																	Xoá
+																</button>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="bold">
+																WWW
+															</div>
+														</td>
+														<td>
+															<div class="text">
+																A
+															</div>
+														</td>
+														<td>
+															<div theme-action="edit">
+																<div class="bold element">
+																	103.109.43.198
+																	<a href="javascript:void(0)" data-toggle="tooltip"
+																	   title="Chỉnh sửa">
+																		<i class="fal fa-pencil-alt"></i>
+																	</a>
+																</div>
+																<div class="input element">
+																	<input type="text" placeholder=""
+																	       style="width: 115px"
+																	       value="103.109.43.198" class="form-control">
+																	<a href="javascript:void(0)" class="text-danger"
+																	   data-toggle="tooltip"
+																	   title="Huỷ">
+																		<i class="fal fa-times"></i>
+																	</a>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div theme-action="edit">
+																<div class="bold element">
+																	3600
+																	<a href="javascript:void(0)" data-toggle="tooltip"
+																	   title="Chỉnh sửa">
+																		<i class="fal fa-pencil-alt"></i>
+																	</a>
+																</div>
+																<div class="input element">
+																	<input type="text" placeholder=""
+																	       style="width: 40px"
+																	       value="3600" class="form-control">
+																	<a href="javascript:void(0)" class="text-danger"
+																	   data-toggle="tooltip"
+																	   title="Huỷ">
+																		<i class="fal fa-times"></i>
+																	</a>
+																</div>
+															</div>
+														</td>
+														<td>
+														</td>
+														<td>
+															<div class="table-action">
+																<button class="btn-theme btn-theme_primary">
+																	Cập nhật
+																</button>
+																<button class="btn-theme btn-theme_delete">
+																	Xoá
+																</button>
+															</div>
+														</td>
+													</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mt-5 mt-md-0">
+								<div class="form-theme form-small">
+									<div class="row">
+										<div class="col-12">
+											<h4 class="form-heading">
+												Thêm bản ghi
+											</h4>
+										</div>
+										<div class="col-12">
+											<div class="row row-x-10">
+												<div class="col-md-4">
+													<div class="form-group">
+														<select name="" id="" class="form-control">
+															<option value="">A</option>
+															<option value="">AAA</option>
+															<option value="">CNAME</option>
+															<option value="">MX</option>
+															<option value="">TXT</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-8">
+													<div class="form-group">
+														<input type="text" class="form-control"
+														       placeholder="Tên bản ghi (Required)"
+														       required>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														<input type="text" class="form-control"
+														       placeholder="Giá trị bản ghi (Required)"
+														       required>
+													</div>
+												</div>
+												<div class="col-md-7">
+													<div class="form-group">
+														<input type="text" class="form-control"
+														       placeholder="TTL (Required)"
+														       required>
+													</div>
+												</div>
+												<div class="col-md-5">
+													<div class="form-group">
+														<input type="text" class="form-control"
+														       placeholder="Prio (Required)"
+														       required>
+													</div>
+												</div>
+												<div class="col-12">
+													<button type="button" class="theme-button">
+														Thêm
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nameserver">
+					<div class="form-theme">
+						<form action="" class="mb-0">
+							<div class="container mx-0 px-0">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="row">
+											<div class="col-12">
+												<h4 class="form-heading">
+													Danh sách nameserver
+												</h4>
+											</div>
+										</div>
+										<div class="row row-x-10">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label for="">
+														<span>*</span> Nameserver1:
+													</label>
+													<input type="text" class="form-control"
+													       placeholder="Nameserver1 (Required)"
+													       value="tom.ns.cloudflare.com"
+													       required>
+												</div>
+											</div>
+										</div>
+										<div class="row row-x-10">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label for="">
+														<span>*</span> Nameserver2:
+													</label>
+													<input type="text" class="form-control"
+													       placeholder="Nameserver2 (Required)"
+													       value="mia.ns.cloudflare.com"
+													       required>
+												</div>
+											</div>
+										</div>
+										<div class="row row-x-10">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label for="">
+														Nameserver2:
+													</label>
+													<input type="text" class="form-control"
+													       placeholder="Enter nameserver3"
+													       value="">
+												</div>
+											</div>
+										</div>
+										<div class="row row-x-10">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label for="">
+														Nameserver4:
+													</label>
+													<input type="text" class="form-control"
+													       placeholder="Enter nameserver4"
+													       value="">
+												</div>
+											</div>
+										</div>
+										<div class="row mt-4">
+											<div class="col-12">
+												<button type="button" class="theme-button">
+													Cập nhật
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
