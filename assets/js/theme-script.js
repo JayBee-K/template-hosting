@@ -272,6 +272,7 @@ $(function () {
 		var o = $(".header.active .header-bottom_bar");
 		o.is(e.target) || 0 !== o.has(e.target).length || (
 			$(".header.active").removeClass('active'),
+				document.removeEventListener('touchmove', handleTouchMoveHeader),
 				$('body').css('overflow', ''))
 	});
 	
