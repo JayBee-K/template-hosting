@@ -1364,7 +1364,7 @@ body {
     background: var(--white-color);
     position: relative;
     overflow: hidden;
-    box-shadow: 0 1px 8px 2px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 8px 2px rgb(0 0 0 / 25%);
     border-top: 7px solid var(--primary-color) !important;
     transition: .3s all ease;
     height: 100%;
@@ -1383,7 +1383,7 @@ body {
 .card-service_featured:hover {
     border-top: 7px solid #dc3545 !important;
     transform: translateY(-4px);
-    box-shadow: 0 1px 8px 2px rgb(0 0 0 / 15%);
+    box-shadow: 0 1px 8px 2px rgb(0 0 0 / 35%);
 }
 
 .card-service_featured .card-body {
@@ -4479,4 +4479,103 @@ body {
     .link-header:last-of-type:after {
         display: none;
     }
+}
+
+/* New Dashboard */
+.template-dashboard {
+    background-color: #f5f7fb;
+}
+
+.dashboard-header {
+    display: flex;
+    width: 100%;
+    background-color: var(--color-hover);
+}
+
+.dashboard-header .header-left {
+    width: 240px;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+.dashboard-header .header-left .hamburger-wrapper {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #BCBCBC25;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.dashboard-header .header-left .hamburger-wrapper svg {
+    color: #fff;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dashboard-header .header-left .logo-wrapper > a > img {
+    height: 30px;
+}
+
+.dashboard-header .header-right {
+    width: 100%;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-header .header-right .search-wrapper {
+    position: relative;
+    max-width: 400px;
+}
+
+.dashboard-header .header-right .search-wrapper form {
+    margin-bottom: 0;
+}
+
+.dashboard-header .header-right .search-wrapper .form-control {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid rgba(230, 237, 239, 0.85);
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 50px;
+    color: #fff;
+}
+
+.dashboard-header .header-right .search-wrapper .form-control::placeholder {
+    color: #e9e1e1;
+}
+
+.dashboard-header .header-right .search-wrapper .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.dashboard-header .header-right .nav-wrapper > ul {
+    display: flex;
+    align-content: center;
 }
