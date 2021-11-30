@@ -4825,18 +4825,18 @@ body {
     margin-bottom: 15px;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action {
-    position: absolute;
-    top: 28px;
+.dashboard-body .body-wrapper .quick-action {
+    position: fixed;
+    bottom: 28px;
     right: 25px;
     z-index: 2;
-    padding-bottom: 5px;
+    padding-top: 10px;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action > a {
+.dashboard-body .body-wrapper .quick-action > a {
     display: block;
-    height: 32px;
-    width: 32px;
+    height: 50px;
+    width: 50px;
     border-radius: 100%;
     background-color: var(--color-hover);
     color: #fff;
@@ -4845,52 +4845,52 @@ body {
     position: relative;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action > a:before {
+.dashboard-body .body-wrapper .quick-action > a:before {
     position: absolute;
     content: "";
     display: block;
     transition: .3s all ease;
     background: #fff;
     border-radius: 2px;
-    width: 15px;
-    height: 2px;
+    width: 18px;
+    height: 3px;
     top: calc(50% - 1px);
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action > a:after {
+.dashboard-body .body-wrapper .quick-action > a:after {
     position: absolute;
     content: "";
     display: block;
     transition: .3s all ease;
     background: #fff;
     border-radius: 2px;
-    width: 2px;
-    height: 15px;
+    width: 3px;
+    height: 18px;
     top: calc(50% - 1px);
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action:hover > a {
+.dashboard-body .body-wrapper .quick-action:hover > a {
     background-color: var(--color-hover);
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action:hover > a:after {
+.dashboard-body .body-wrapper .quick-action:hover > a:after {
     transform: translate(-50%, -50%) rotate(90deg);
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action > ul {
+.dashboard-body .body-wrapper .quick-action > ul {
     position: absolute;
-    top: calc(100% + 50px);
-    right: -6px;
+    bottom: calc(100% - 50px);
+    right: 0;
     opacity: 0;
     visibility: hidden;
     z-index: -1;
-    transition: .3s top ease, .3s opacity ease;
+    transition: .3s all ease;
     background-color: #fff;
     min-width: 160px;
     padding: 5px;
@@ -4900,7 +4900,7 @@ body {
     border-radius: 0.25rem;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action > ul > li > a {
+.dashboard-body .body-wrapper .quick-action > ul > li > a {
     display: block;
     cursor: pointer;
     background-color: transparent;
@@ -4914,47 +4914,47 @@ body {
     margin-bottom: 5px;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action > ul > li > a > i {
+.dashboard-body .body-wrapper .quick-action > ul > li > a > i {
     margin-right: 6px;
     width: 18px;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action.show > a,
-.dashboard-body .body-wrapper .body-main .quick-action > ul > li > a:hover {
+.dashboard-body .body-wrapper .quick-action.show > a,
+.dashboard-body .body-wrapper .quick-action > ul > li > a:hover {
     color: var(--color-main);
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action > ul > li > a:hover {
+.dashboard-body .body-wrapper .quick-action > ul > li > a:hover {
     background-color: #edf4f5;
 }
 
-.dashboard-body .body-wrapper .body-main .quick-action:hover > ul {
-    top: 100%;
+.dashboard-body .body-wrapper .quick-action:hover > ul {
+    bottom: 100%;
     opacity: 1;
     z-index: 41;
     visibility: visible;
 }
 
 @media screen and (max-width: 991px) {
-    .dashboard-body .body-wrapper .body-main .quick-action {
+    .dashboard-body .body-wrapper .quick-action {
         position: fixed;
         bottom: 30px;
         right: 30px;
         top: unset;
     }
 
-    .dashboard-body .body-wrapper .body-main .quick-action > ul {
+    .dashboard-body .body-wrapper .quick-action > ul {
         top: calc(-100% - 120px);
     }
 
-    .dashboard-body .body-wrapper .body-main .quick-action > ul:after,
-    .dashboard-body .body-wrapper .body-main .quick-action > ul:before {
+    .dashboard-body .body-wrapper .quick-action > ul:after,
+    .dashboard-body .body-wrapper .quick-action > ul:before {
         transform: rotate(180deg);
         top: unset;
         bottom: -10px;
     }
 
-    .dashboard-body .body-wrapper .body-main .quick-action:hover > ul {
+    .dashboard-body .body-wrapper .quick-action:hover > ul {
         top: calc(-100% - 100px);
     }
 }
