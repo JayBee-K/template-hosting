@@ -1,881 +1,757 @@
 <html lang="en-US">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="Keywords" content="">
-    <meta name="Description" content="">
-    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
 
-    <meta itemprop="name" content="">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="">
+	<meta itemprop="name" content="">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
 
-    <meta property="og:locale" content="">
-    <meta property="og:type" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
+	<meta property="og:locale" content="">
+	<meta property="og:type" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
 
-    <meta name="twitter:card" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:creator" content="">
+	<meta name="twitter:card" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:image" content="">
+	<meta name="twitter:creator" content="">
 
-    <title>Dashboard - Nencer.vn</title>
-    <link rel="stylesheet" href="./assets/plugin/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/plugin/select2/select2.min.css">
-    <link rel="stylesheet" href="./assets/plugin/swiper/swiper.css">
-    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="./assets/plugin/waves/waves.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+	<title>Dashboard - Nencer.vn</title>
+	<link rel="stylesheet" href="./assets/plugin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugin/select2/select2.min.css">
+	<link rel="stylesheet" href="./assets/plugin/swiper/swiper.css">
+	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="./assets/plugin/waves/waves.min.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 
-    <script type="text/javascript" src="./assets/plugin/jquery.min.js"></script>
-    <script type="text/javascript" src="./assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="./assets/plugin/waves/waves.min.js"></script>
-    <script type="text/javascript" src="./assets/plugin/select2/select2.min.js"></script>
-    <script type="text/javascript" src="./assets/plugin/swiper/swiper.js"></script>
-    <script type="text/javascript" src="./assets/plugin/particles-js.js"></script>
-    <script type="text/javascript" src="./assets/js/theme-script.js"></script>
-    <style>
+	<script type="text/javascript" src="./assets/plugin/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/waves/waves.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/select2/select2.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/swiper/swiper.js"></script>
+	<script type="text/javascript" src="./assets/plugin/particles-js.js"></script>
+	<script type="text/javascript" src="./assets/js/theme-script.js"></script>
+	<style>
         :root {
             --color-main: #2879ff;
             --color-hover: #093070;
             --color-sidebar: #04132c;
         }
-    </style>
+	</style>
 </head>
 <body class="template-dashboard">
 <header class="dashboard-header">
-    <div class="header-left">
-        <div class="hamburger-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                 class="feather feather-align-center status_toggle middle" id="sidebar-toggle">
-                <line x1="18" y1="10" x2="6" y2="10"></line>
-                <line x1="21" y1="6" x2="3" y2="6"></line>
-                <line x1="21" y1="14" x2="3" y2="14"></line>
-                <line x1="18" y1="18" x2="6" y2="18"></line>
-            </svg>
-        </div>
-        <div class="logo-wrapper">
-            <a href="#">
-                <img src="./assets/images/logo-white.png" alt="">
-            </a>
-        </div>
-    </div>
-    <div class="header-right">
-        <div class="search-wrapper">
-            <form action="">
-                <input type="text" class="form-control" placeholder="Enter keyword search...">
-                <button class="btn"><i class="fal fa-search"></i></button>
-            </form>
-        </div>
-        <div class="nav-wrapper">
-            <ul class="list-unstyled mb-0">
-                <li>
-                    <a href="">
-                        <i class="fas fa-dollar-sign mr-1"></i>
-                        Số dư: <b>199.000</b> <sup>VNĐ</sup>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Dashboard
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        DNS
-                    </a>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle">
-                        <i class="fas fa-user mr-1"></i>
-                        Nguyen Van ABC
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#">
-                            Thông tin cá nhân
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Lịch sử giao dịch
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Bảo mật tài khoản
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Thông báo
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Đổi mật khẩu
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Đăng xuất
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+	<div class="header-left">
+		<div class="hamburger-wrapper">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+				 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+				 class="feather feather-align-center status_toggle middle" id="sidebar-toggle">
+				<line x1="18" y1="10" x2="6" y2="10"></line>
+				<line x1="21" y1="6" x2="3" y2="6"></line>
+				<line x1="21" y1="14" x2="3" y2="14"></line>
+				<line x1="18" y1="18" x2="6" y2="18"></line>
+			</svg>
+		</div>
+		<div class="logo-wrapper">
+			<a href="#">
+				<img src="./assets/images/logo-white.png" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="header-right">
+		<div class="search-wrapper">
+			<form action="">
+				<input type="text" class="form-control" placeholder="Enter keyword search...">
+				<button class="btn"><i class="fal fa-search"></i></button>
+			</form>
+		</div>
+		<div class="nav-wrapper">
+			<ul class="list-unstyled mb-0">
+				<li>
+					<a href="">
+						<i class="fas fa-dollar-sign mr-1"></i>
+						Số dư: <b>199.000</b> <sup>VNĐ</sup>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a href="">
+						DNS
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle">
+						<i class="fas fa-user mr-1"></i>
+						Nguyen Van ABC
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">
+							Thông tin cá nhân
+						</a>
+						<a class="dropdown-item" href="">
+							Lịch sử giao dịch
+						</a>
+						<a class="dropdown-item" href="">
+							Bảo mật tài khoản
+						</a>
+						<a class="dropdown-item" href="">
+							Thông báo
+						</a>
+						<a class="dropdown-item" href="">
+							Đổi mật khẩu
+						</a>
+						<a class="dropdown-item" href="">
+							Đăng xuất
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
 </header>
 <div class="dashboard-sidebar">
-    <ul class="list-unstyled mb-0">
-        <li class="active">
-            <a href="#" class="d-inline-block">
-                <img src="./assets/images/icon/allservice.svg" alt="">
-                Tất cả dịch vụ
-            </a>
-        </li>
-        <li>
-            <a href="#" class="d-inline-block">
-                <img src="./assets/images/icon/hosting.svg" alt="">
-                Hosting
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/domain.svg" alt="">
-                Tên miền
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/servers.svg" alt="">
-                Mảy chủ ảo
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/server.svg" alt="">
-                Mảy chủ vật lý
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/ssl.svg" alt="">
-                Chứng chỉ SSL
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/email.svg" alt="">
-                Email
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/application.svg" alt="">
-                Phần mềm
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/support.svg" alt="">
-                Dịch vụ hỗ trợ
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/service.svg" alt="">
-                Dịch vụ
-            </a>
-        </li>
-    </ul>
+	<ul class="list-unstyled mb-0">
+		<li class="active">
+			<a href="#" class="d-inline-block">
+				<img src="./assets/images/icon/allservice.svg" alt="">
+				Tất cả dịch vụ
+			</a>
+		</li>
+		<li>
+			<a href="#" class="d-inline-block">
+				<img src="./assets/images/icon/hosting.svg" alt="">
+				Hosting
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/domain.svg" alt="">
+				Tên miền
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/servers.svg" alt="">
+				Mảy chủ ảo
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/server.svg" alt="">
+				Mảy chủ vật lý
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/ssl.svg" alt="">
+				Chứng chỉ SSL
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/email.svg" alt="">
+				Email
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/application.svg" alt="">
+				Phần mềm
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/support.svg" alt="">
+				Dịch vụ hỗ trợ
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/service.svg" alt="">
+				Dịch vụ
+			</a>
+		</li>
+	</ul>
 </div>
 <div class="dashboard-body">
-    <div class="body-wrapper">
-        <div class="body-heading">
-            <div class="body-heading_left">
-                <h1>Thông tin DNS</h1>
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Thông tin DNS</a></li>
-                </ol>
-            </div>
-        </div>
-        <div class="body-main">
-            <div class="tab-theme">
-                <ul class="nav nav-tabs" id="myTab">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="listdns-tab" data-toggle="tab" href="#listdns">
-                            Danh sách bản ghi
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="doimatkhau-tab" data-toggle="tab" href="#nameserver">
-                            Danh sách nameserver
-                        </a>
-                    </li>
-                </ul>
-                <div class="quick-action">
-                    <a href="javascript:void(0)">
-                        <i></i>
-                    </a>
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="">
-                                <i class="fas fa-credit-card"></i>
-                                Add Credits
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fas fa-credit-card"></i>
-                                Add Credits
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fas fa-credit-card"></i>
-                                Add Credits
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="tab-content">
-                    <div class="tab-pane fade active show" id="listdns">
-                        <div class="row row-x-10">
-                            <div class="col-md-8">
-                                <div class="table-theme">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                            <tr>
-                                                <th>
-                                                    Tên
-                                                </th>
-                                                <th>
-                                                    Loại
-                                                </th>
-                                                <th>
-                                                    Giá trị
-                                                </th>
-                                                <th>
-                                                    TTL
-                                                </th>
-                                                <th>
-                                                    Prio
-                                                </th>
-                                                <th>
-                                                </th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="bold">
-                                                        @
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="text">
-                                                        A
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            103.109.43.198
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 115px"
-                                                                   value="103.109.43.198" class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            3600
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 40px"
-                                                                   value="3600"
-                                                                   class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="table-action">
-                                                        <button class="btn-theme btn-theme_primary waves-light waves-effect">
-                                                            Cập nhật
-                                                        </button>
-                                                        <button class="btn-theme btn-theme_delete waves-light waves-effect">
-                                                            Xoá
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="bold">
-                                                        WWW
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="text">
-                                                        A
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            103.109.43.198
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 115px"
-                                                                   value="103.109.43.198" class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            3600
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 40px"
-                                                                   value="3600"
-                                                                   class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="table-action">
-                                                        <button class="btn-theme btn-theme_primary waves-light waves-effect">
-                                                            Cập nhật
-                                                        </button>
-                                                        <button class="btn-theme btn-theme_delete waves-light waves-effect">
-                                                            Xoá
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="bold">
-                                                        @
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="text">
-                                                        A
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            103.109.43.198
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 115px"
-                                                                   value="103.109.43.198" class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            3600
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 40px"
-                                                                   value="3600"
-                                                                   class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="table-action">
-                                                        <button class="btn-theme btn-theme_primary waves-light waves-effect">
-                                                            Cập nhật
-                                                        </button>
-                                                        <button class="btn-theme btn-theme_delete waves-light waves-effect">
-                                                            Xoá
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="bold">
-                                                        WWW
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="text">
-                                                        A
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            103.109.43.198
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 115px"
-                                                                   value="103.109.43.198" class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            3600
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 40px"
-                                                                   value="3600"
-                                                                   class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="table-action">
-                                                        <button class="btn-theme btn-theme_primary waves-light waves-effect">
-                                                            Cập nhật
-                                                        </button>
-                                                        <button class="btn-theme btn-theme_delete waves-light waves-effect">
-                                                            Xoá
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="bold">
-                                                        @
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="text">
-                                                        A
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            103.109.43.198
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 115px"
-                                                                   value="103.109.43.198" class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            3600
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 40px"
-                                                                   value="3600"
-                                                                   class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="table-action">
-                                                        <button class="btn-theme btn-theme_primary waves-light waves-effect">
-                                                            Cập nhật
-                                                        </button>
-                                                        <button class="btn-theme btn-theme_delete waves-light waves-effect">
-                                                            Xoá
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="bold">
-                                                        WWW
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="text">
-                                                        A
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            103.109.43.198
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 115px"
-                                                                   value="103.109.43.198" class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            3600
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 40px"
-                                                                   value="3600"
-                                                                   class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="table-action">
-                                                        <button class="btn-theme btn-theme_primary waves-light waves-effect">
-                                                            Cập nhật
-                                                        </button>
-                                                        <button class="btn-theme btn-theme_delete waves-light waves-effect">
-                                                            Xoá
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="bold">
-                                                        @
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="text">
-                                                        A
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            103.109.43.198
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 115px"
-                                                                   value="103.109.43.198" class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            3600
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 40px"
-                                                                   value="3600"
-                                                                   class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="table-action">
-                                                        <button class="btn-theme btn-theme_primary waves-light waves-effect">
-                                                            Cập nhật
-                                                        </button>
-                                                        <button class="btn-theme btn-theme_delete waves-light waves-effect">
-                                                            Xoá
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="bold">
-                                                        WWW
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="text">
-                                                        A
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            103.109.43.198
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 115px"
-                                                                   value="103.109.43.198" class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div theme-action="edit">
-                                                        <div class="bold element">
-                                                            3600
-                                                            <a href="javascript:void(0)" data-toggle="tooltip"
-                                                               title="Chỉnh sửa">
-                                                                <i class="fal fa-pencil-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                        <div class="input element">
-                                                            <input type="text" placeholder="" style="width: 40px"
-                                                                   value="3600"
-                                                                   class="form-control">
-                                                            <a href="javascript:void(0)" class="text-danger"
-                                                               data-toggle="tooltip"
-                                                               title="Huỷ">
-                                                                <i class="fal fa-times"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="table-action">
-                                                        <button class="btn-theme btn-theme_primary waves-light waves-effect">
-                                                            Cập nhật
-                                                        </button>
-                                                        <button class="btn-theme btn-theme_delete waves-light waves-effect">
-                                                            Xoá
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="dashboard-subtitle">
-                                    Tạo bản ghi
-                                </div>
-                                <form action="" class="mb-0">
-                                    <div class="form-floating mb-3">
-                                        <select class="form-control form-select" id="type">
-                                            <option value="">A</option>
-                                            <option value="">AAA</option>
-                                            <option value="">CNAME</option>
-                                            <option value="">MX</option>
-                                            <option value="">TXT</option>
-                                        </select>
-                                        <label for="type">Loại</label>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="name" required
-                                               placeholder="Để text placeholder vào nha">
-                                        <label for="name">Tên bản ghi (Required)</label>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="value" required
-                                               placeholder="Để text placeholder vào nha">
-                                        <label for="value">Giá trị bản ghi (Required)</label>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="ttl" required
-                                               placeholder="Để text placeholder vào nha">
-                                        <label for="ttl">TTL (Required)</label>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="prio" required
-                                               placeholder="Để text placeholder vào nha">
-                                        <label for="prio">Prio (Required)</label>
-                                    </div>
-                                    <div class="mt-5 text-center">
-                                        <button type="submit"
-                                                class="btn btn-primary_theme waves-light waves-effect">
-                                            Thêm bản ghi
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nameserver">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="nameserver01" required
-                                           placeholder="Để text placeholder vào nha">
-                                    <label for="nameserver01">Name Server 01(Required)</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="nameserver02" required
-                                           placeholder="Để text placeholder vào nha">
-                                    <label for="nameserver02">Name Server 02(Required)</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="nameserver03"
-                                           placeholder="Để text placeholder vào nha">
-                                    <label for="nameserver03">Name Server 03(Optional)</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="nameserver04"
-                                           placeholder="Để text placeholder vào nha">
-                                    <label for="nameserver04">Name Server 04(Optional)</label>
-                                </div>
-                                <div class="mt-5 text-center">
-                                    <button type="submit"
-                                            class="btn btn-primary_theme waves-light waves-effect">
-                                        Cập nhật nameserver
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="body-wrapper">
+		<div class="body-heading">
+			<div class="body-heading_left">
+				<h1>Thông tin DNS</h1>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Thông tin DNS</a></li>
+				</ol>
+			</div>
+		</div>
+		<div class="body-main">
+			<div class="tab-theme">
+				<ul class="nav nav-tabs" id="myTab">
+					<li class="nav-item">
+						<a class="nav-link active" id="listdns-tab" data-toggle="tab" href="#listdns">
+							Danh sách bản ghi
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="doimatkhau-tab" data-toggle="tab" href="#nameserver">
+							Danh sách nameserver
+						</a>
+					</li>
+				</ul>
+				<div class="quick-action">
+					<a href="javascript:void(0)">
+						<i></i>
+					</a>
+					<ul class="list-unstyled mb-0">
+						<li>
+							<a href="">
+								<i class="fas fa-credit-card"></i>
+								Add Credits
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fas fa-credit-card"></i>
+								Add Credits
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fas fa-credit-card"></i>
+								Add Credits
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-content">
+					<div class="tab-pane fade active show" id="listdns">
+						<div class="row row-x-10">
+							<div class="col-md-8">
+								<div class="table-theme">
+									<div class="table-responsive">
+										<table class="table">
+											<thead>
+											<tr>
+												<th style="width: 110px">
+													Tên
+												</th>
+												<th style="width: 95px">
+													Loại
+												</th>
+												<th style="width: 230px;">
+													Giá trị
+												</th>
+												<th style="width: 150px">
+													TTL
+												</th>
+												<th style="width: 270px;">
+													Prio
+												</th>
+												<th style="width: 300px;">
+												</th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr class="rowValue">
+												<td>
+													<div class="bold editText">
+														@
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="@" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="text editText">
+														A
+													</div>
+													<div class="input editInput">
+														<select name="" class="form-control" id="">
+															<option value="" selected>A</option>
+															<option value="">AAA</option>
+															<option value="">CNAME</option>
+															<option value="">MX</option>
+															<option value="">TXT</option>
+														</select>
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														103.109.43.198
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="103.109.43.198" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														3600
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="3600"
+															   class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="Lorem ipsum dolor sit amet, consectetur adipisicing elit." class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="table-action">
+														<button class="btn-theme btn-theme_default waves-light waves-effect editValue">
+															Chỉnh sửa
+														</button>
+														<button class="btn-theme btn-theme_primary waves-light waves-effect">
+															Cập nhật
+														</button>
+														<button class="btn-theme btn-theme_delete waves-light waves-effect">
+															Xoá
+														</button>
+													</div>
+												</td>
+											</tr>
+											<tr class="rowValue">
+												<td>
+													<div class="bold editText">
+														WWW
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="@" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="text editText">
+														CNAME
+													</div>
+													<div class="input editInput">
+														<select name="" class="form-control" id="">
+															<option value="">A</option>
+															<option value="">AAA</option>
+															<option value="" selected>CNAME</option>
+															<option value="">MX</option>
+															<option value="">TXT</option>
+														</select>
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														103.109.43.198
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="103.109.43.198" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														3600
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="3600"
+															   class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														Lorem ipsum dolor.
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="Lorem ipsum dolor." class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="table-action">
+														<button class="btn-theme btn-theme_default waves-light waves-effect editValue">
+															Chỉnh sửa
+														</button>
+														<button class="btn-theme btn-theme_primary waves-light waves-effect">
+															Cập nhật
+														</button>
+														<button class="btn-theme btn-theme_delete waves-light waves-effect">
+															Xoá
+														</button>
+													</div>
+												</td>
+											</tr>
+											<tr class="rowValue">
+												<td>
+													<div class="bold editText">
+														@
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="@" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="text editText">
+														A
+													</div>
+													<div class="input editInput">
+														<select name="" class="form-control" id="">
+															<option value="" selected>A</option>
+															<option value="">AAA</option>
+															<option value="">CNAME</option>
+															<option value="">MX</option>
+															<option value="">TXT</option>
+														</select>
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														103.109.43.198
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="103.109.43.198" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														3600
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="3600"
+															   class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="Lorem ipsum dolor sit amet, consectetur adipisicing elit." class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="table-action">
+														<button class="btn-theme btn-theme_default waves-light waves-effect editValue">
+															Chỉnh sửa
+														</button>
+														<button class="btn-theme btn-theme_primary waves-light waves-effect">
+															Cập nhật
+														</button>
+														<button class="btn-theme btn-theme_delete waves-light waves-effect">
+															Xoá
+														</button>
+													</div>
+												</td>
+											</tr>
+											<tr class="rowValue">
+												<td>
+													<div class="bold editText">
+														WWW
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="@" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="text editText">
+														CNAME
+													</div>
+													<div class="input editInput">
+														<select name="" class="form-control" id="">
+															<option value="">A</option>
+															<option value="">AAA</option>
+															<option value="" selected>CNAME</option>
+															<option value="">MX</option>
+															<option value="">TXT</option>
+														</select>
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														103.109.43.198
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="103.109.43.198" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														3600
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="3600"
+															   class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														Lorem ipsum dolor.
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="Lorem ipsum dolor." class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="table-action">
+														<button class="btn-theme btn-theme_default waves-light waves-effect editValue">
+															Chỉnh sửa
+														</button>
+														<button class="btn-theme btn-theme_primary waves-light waves-effect">
+															Cập nhật
+														</button>
+														<button class="btn-theme btn-theme_delete waves-light waves-effect">
+															Xoá
+														</button>
+													</div>
+												</td>
+											</tr>
+											<tr class="rowValue">
+												<td>
+													<div class="bold editText">
+														@
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="@" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="text editText">
+														A
+													</div>
+													<div class="input editInput">
+														<select name="" class="form-control" id="">
+															<option value="" selected>A</option>
+															<option value="">AAA</option>
+															<option value="">CNAME</option>
+															<option value="">MX</option>
+															<option value="">TXT</option>
+														</select>
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														103.109.43.198
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="103.109.43.198" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														3600
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="3600"
+															   class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="Lorem ipsum dolor sit amet, consectetur adipisicing elit." class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="table-action">
+														<button class="btn-theme btn-theme_default waves-light waves-effect editValue">
+															Chỉnh sửa
+														</button>
+														<button class="btn-theme btn-theme_primary waves-light waves-effect">
+															Cập nhật
+														</button>
+														<button class="btn-theme btn-theme_delete waves-light waves-effect">
+															Xoá
+														</button>
+													</div>
+												</td>
+											</tr>
+											<tr class="rowValue">
+												<td>
+													<div class="bold editText">
+														WWW
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="@" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="text editText">
+														CNAME
+													</div>
+													<div class="input editInput">
+														<select name="" class="form-control" id="">
+															<option value="">A</option>
+															<option value="">AAA</option>
+															<option value="" selected>CNAME</option>
+															<option value="">MX</option>
+															<option value="">TXT</option>
+														</select>
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														103.109.43.198
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="103.109.43.198" class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														3600
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="3600"
+															   class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="bold editText">
+														Lorem ipsum dolor.
+													</div>
+													<div class="input editInput">
+														<input type="text" placeholder=""
+															   value="Lorem ipsum dolor." class="form-control">
+													</div>
+												</td>
+												<td>
+													<div class="table-action">
+														<button class="btn-theme btn-theme_default waves-light waves-effect editValue">
+															Chỉnh sửa
+														</button>
+														<button class="btn-theme btn-theme_primary waves-light waves-effect">
+															Cập nhật
+														</button>
+														<button class="btn-theme btn-theme_delete waves-light waves-effect">
+															Xoá
+														</button>
+													</div>
+												</td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="dashboard-subtitle">
+									Tạo bản ghi
+								</div>
+								<form action="" class="mb-0">
+									<div class="form-floating mb-3">
+										<select class="form-control form-select" id="type">
+											<option value="">A</option>
+											<option value="">AAA</option>
+											<option value="">CNAME</option>
+											<option value="">MX</option>
+											<option value="">TXT</option>
+										</select>
+										<label for="type">Loại</label>
+									</div>
+									<div class="form-floating mb-3">
+										<input type="text" class="form-control" id="name" required
+											   placeholder="Để text placeholder vào nha">
+										<label for="name">Tên bản ghi (Required)</label>
+									</div>
+									<div class="form-floating mb-3">
+										<input type="text" class="form-control" id="value" required
+											   placeholder="Để text placeholder vào nha">
+										<label for="value">Giá trị bản ghi (Required)</label>
+									</div>
+									<div class="form-floating mb-3">
+										<input type="text" class="form-control" id="ttl" required
+											   placeholder="Để text placeholder vào nha">
+										<label for="ttl">TTL (Required)</label>
+									</div>
+									<div class="form-floating mb-3">
+										<input type="text" class="form-control" id="prio" required
+											   placeholder="Để text placeholder vào nha">
+										<label for="prio">Prio (Required)</label>
+									</div>
+									<div class="mt-5 text-center">
+										<button type="submit"
+												class="btn btn-primary_theme waves-light waves-effect">
+											Thêm bản ghi
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nameserver">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-floating mb-3">
+									<input type="text" class="form-control" id="nameserver01" required
+										   placeholder="Để text placeholder vào nha">
+									<label for="nameserver01">Name Server 01(Required)</label>
+								</div>
+								<div class="form-floating mb-3">
+									<input type="text" class="form-control" id="nameserver02" required
+										   placeholder="Để text placeholder vào nha">
+									<label for="nameserver02">Name Server 02(Required)</label>
+								</div>
+								<div class="form-floating mb-3">
+									<input type="text" class="form-control" id="nameserver03"
+										   placeholder="Để text placeholder vào nha">
+									<label for="nameserver03">Name Server 03(Optional)</label>
+								</div>
+								<div class="form-floating mb-3">
+									<input type="text" class="form-control" id="nameserver04"
+										   placeholder="Để text placeholder vào nha">
+									<label for="nameserver04">Name Server 04(Optional)</label>
+								</div>
+								<div class="mt-5 text-center">
+									<button type="submit"
+											class="btn btn-primary_theme waves-light waves-effect">
+										Cập nhật nameserver
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <footer class="dashboard-footer">
-    <div class="footer-inner">
-        Copyright © 2021. Designed by&nbsp;<a href="">Nencer</a>. All rights reserved
-    </div>
+	<div class="footer-inner">
+		Copyright © 2021. Designed by&nbsp;<a href="">Nencer</a>. All rights reserved
+	</div>
 </footer>
 </body>
 </html>

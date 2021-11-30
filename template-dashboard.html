@@ -1,717 +1,658 @@
 <html lang="en-US">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="Keywords" content="">
-    <meta name="Description" content="">
-    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
 
-    <meta itemprop="name" content="">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="">
+	<meta itemprop="name" content="">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
 
-    <meta property="og:locale" content="">
-    <meta property="og:type" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
+	<meta property="og:locale" content="">
+	<meta property="og:type" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
 
-    <meta name="twitter:card" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:creator" content="">
+	<meta name="twitter:card" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:image" content="">
+	<meta name="twitter:creator" content="">
 
-    <title>Dashboard - Nencer.vn</title>
+	<title>Dashboard - Nencer.vn</title>
 
-    <link rel="stylesheet" href="./assets/plugin/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/plugin/select2/select2.min.css">
-    <link rel="stylesheet" href="./assets/plugin/swiper/swiper.css">
-    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="./assets/plugin/waves/waves.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/plugin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugin/select2/select2.min.css">
+	<link rel="stylesheet" href="./assets/plugin/swiper/swiper.css">
+	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="./assets/plugin/waves/waves.min.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 
-    <script type="text/javascript" src="./assets/plugin/jquery.min.js"></script>
-    <script type="text/javascript" src="./assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="./assets/plugin/select2/select2.min.js"></script>
-    <script type="text/javascript" src="./assets/plugin/swiper/swiper.js"></script>
-    <script type="text/javascript" src="./assets/plugin/particles-js.js"></script>
-    <script type="text/javascript" src="./assets/plugin/waves/waves.min.js"></script>
-    <script type="text/javascript" src="./assets/js/theme-script.js"></script>
-    <style>
+	<script type="text/javascript" src="./assets/plugin/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/select2/select2.min.js"></script>
+	<script type="text/javascript" src="./assets/plugin/swiper/swiper.js"></script>
+	<script type="text/javascript" src="./assets/plugin/particles-js.js"></script>
+	<script type="text/javascript" src="./assets/plugin/waves/waves.min.js"></script>
+	<script type="text/javascript" src="./assets/js/theme-script.js"></script>
+	<style>
         :root {
             --color-main: #2879ff;
             --color-hover: #093070;
             --color-sidebar: #04132c;
         }
-    </style>
+	</style>
 </head>
 <body class="template-dashboard">
 <header class="dashboard-header">
-    <div class="header-left">
-        <div class="hamburger-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                 class="feather feather-align-center status_toggle middle" id="sidebar-toggle">
-                <line x1="18" y1="10" x2="6" y2="10"></line>
-                <line x1="21" y1="6" x2="3" y2="6"></line>
-                <line x1="21" y1="14" x2="3" y2="14"></line>
-                <line x1="18" y1="18" x2="6" y2="18"></line>
-            </svg>
-        </div>
-        <div class="logo-wrapper">
-            <a href="#">
-                <img src="./assets/images/logo-white.png" alt="">
-            </a>
-        </div>
-    </div>
-    <div class="header-right">
-        <div class="search-wrapper">
-            <form action="">
-                <input type="text" class="form-control" placeholder="Enter keyword search...">
-                <button class="btn"><i class="fal fa-search"></i></button>
-            </form>
-        </div>
-        <div class="nav-wrapper">
-            <ul class="list-unstyled mb-0">
-                <li>
-                    <a href="">
-                        <i class="fas fa-dollar-sign mr-1"></i>
-                        Số dư: <b>199.000</b> <sup>VNĐ</sup>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Dashboard
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        DNS
-                    </a>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle">
-                        <i class="fas fa-user mr-1"></i>
-                        Nguyen Van ABC
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#">
-                            Thông tin cá nhân
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Lịch sử giao dịch
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Bảo mật tài khoản
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Thông báo
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Đổi mật khẩu
-                        </a>
-                        <a class="dropdown-item" href="">
-                            Đăng xuất
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+	<div class="header-left">
+		<div class="hamburger-wrapper">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+				 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+				 class="feather feather-align-center status_toggle middle" id="sidebar-toggle">
+				<line x1="18" y1="10" x2="6" y2="10"></line>
+				<line x1="21" y1="6" x2="3" y2="6"></line>
+				<line x1="21" y1="14" x2="3" y2="14"></line>
+				<line x1="18" y1="18" x2="6" y2="18"></line>
+			</svg>
+		</div>
+		<div class="logo-wrapper">
+			<a href="#">
+				<img src="./assets/images/logo-white.png" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="header-right">
+		<div class="search-wrapper">
+			<form action="">
+				<input type="text" class="form-control" placeholder="Enter keyword search...">
+				<button class="btn"><i class="fal fa-search"></i></button>
+			</form>
+		</div>
+		<div class="nav-wrapper">
+			<ul class="list-unstyled mb-0">
+				<li>
+					<a href="">
+						<i class="fas fa-dollar-sign mr-1"></i>
+						Số dư: <b>199.000</b> <sup>VNĐ</sup>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a href="">
+						DNS
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle">
+						<i class="fas fa-user mr-1"></i>
+						Nguyen Van ABC
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">
+							Thông tin cá nhân
+						</a>
+						<a class="dropdown-item" href="">
+							Lịch sử giao dịch
+						</a>
+						<a class="dropdown-item" href="">
+							Bảo mật tài khoản
+						</a>
+						<a class="dropdown-item" href="">
+							Thông báo
+						</a>
+						<a class="dropdown-item" href="">
+							Đổi mật khẩu
+						</a>
+						<a class="dropdown-item" href="">
+							Đăng xuất
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
 </header>
 <div class="dashboard-sidebar">
-    <ul class="list-unstyled mb-0">
-        <li class="active">
-            <a href="#" class="d-inline-block">
-                <img src="./assets/images/icon/allservice.svg" alt="">
-                Tất cả dịch vụ
-            </a>
-        </li>
-        <li>
-            <a href="#" class="d-inline-block">
-                <img src="./assets/images/icon/hosting.svg" alt="">
-                Hosting
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/domain.svg" alt="">
-                Tên miền
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/servers.svg" alt="">
-                Mảy chủ ảo
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/server.svg" alt="">
-                Mảy chủ vật lý
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/ssl.svg" alt="">
-                Chứng chỉ SSL
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/email.svg" alt="">
-                Email
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/application.svg" alt="">
-                Phần mềm
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/support.svg" alt="">
-                Dịch vụ hỗ trợ
-            </a>
-        </li>
-        <li>
-            <a href="" class="d-inline-block">
-                <img src="./assets/images/icon/service.svg" alt="">
-                Dịch vụ
-            </a>
-        </li>
-    </ul>
+	<ul class="list-unstyled mb-0">
+		<li class="active">
+			<a href="#" class="d-inline-block">
+				<img src="./assets/images/icon/allservice.svg" alt="">
+				Tất cả dịch vụ
+			</a>
+		</li>
+		<li>
+			<a href="#" class="d-inline-block">
+				<img src="./assets/images/icon/hosting.svg" alt="">
+				Hosting
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/domain.svg" alt="">
+				Tên miền
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/servers.svg" alt="">
+				Mảy chủ ảo
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/server.svg" alt="">
+				Mảy chủ vật lý
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/ssl.svg" alt="">
+				Chứng chỉ SSL
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/email.svg" alt="">
+				Email
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/application.svg" alt="">
+				Phần mềm
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/support.svg" alt="">
+				Dịch vụ hỗ trợ
+			</a>
+		</li>
+		<li>
+			<a href="" class="d-inline-block">
+				<img src="./assets/images/icon/service.svg" alt="">
+				Dịch vụ
+			</a>
+		</li>
+	</ul>
 </div>
 <div class="dashboard-body">
-    <div class="body-wrapper">
-        <div class="body-heading">
-            <div class="body-heading_left">
-                <h1>Dashboard</h1>
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                </ol>
-            </div>
-        </div>
-        <div class="body-main">
-            <div class="tab-theme">
-                <div class="tab-content">
-                    <ul class="nav nav-tabs" id="myTab">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="domain-tab" data-toggle="tab" href="#domain">
-                                Domain
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="hosting-tab" data-toggle="tab" href="#hosting">
-                                Hosting
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="cloudserver-tab" data-toggle="tab" href="#cloudserver">
-                                Cloud Server
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="server-tab" data-toggle="tab" href="#server">
-                                Server
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="scripts-tab" data-toggle="tab" href="#scripts">
-                                Scripts
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="ssl-tab" data-toggle="tab" href="#ssl">
-                                SSL
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="email-tab" data-toggle="tab" href="#email">
-                                Email
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="application-tab" data-toggle="tab" href="#application">
-                                Application
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="support-tab" data-toggle="tab" href="#support">
-                                Support
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="service-tab" data-toggle="tab" href="#service">
-                                Service
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="quick-action">
-                        <a href="javascript:void(0)">
-                            <i></i>
-                        </a>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="">
-                                    <i class="fas fa-credit-card"></i>
-                                    Add Credits
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fas fa-credit-card"></i>
-                                    Add Credits
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fas fa-credit-card"></i>
-                                    Add Credits
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane fade active show" id="domain">
-                        <div class="search-sort">
-                            <div class="d-flex align-content-center justify-content-between">
-                                <div class="search">
-                                    <form action="" class="mb-0">
-                                        <div class="form-group mb-0">
-                                            <input type="text" placeholder="Search..." class="form-control">
-                                            <button><i class="far fa-search"></i></button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="sort theme-action right" theme-parent="location" theme-position="right"
-                                     theme-action="dropdown">
-                                    <a href="javascript:void(0)" theme-id="setLocation">
-                                        <label>Sort</label>
-                                        <span>Location</span>
-                                    </a>
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <a href="javascript:void(0)" theme-action="location"
-                                               data-value="London (United Kingdom)">
-                                                <img src="./assets/images/flag/flag_gb.webp" alt="">
-                                                <span>
-										United Kingdom - <b>London</b>
-									</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)" theme-action="location"
-                                               data-value="Seoul (South Korea)">
-                                                <img src="./assets/images/flag/flag_kr.webp" alt="">
-                                                <span>
-										South Korea - <b>Seoul</b>
-									</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)" theme-action="location"
-                                               data-value="Tokyo (Japan)">
-                                                <img src="./assets/images/flag/flag_jp.webp" alt="">
-                                                <span>
-										Japan - <b>Tokyo</b>
-									</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)" theme-action="location"
-                                               data-value="London (United Kingdom)">
-                                                <img src="./assets/images/flag/flag_gb.webp" alt="">
-                                                <span>
-										United Kingdom - <b>London</b>
-									</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)" theme-action="location"
-                                               data-value="Seoul (South Korea)">
-                                                <img src="./assets/images/flag/flag_kr.webp" alt="">
-                                                <span>
-										South Korea - <b>Seoul</b>
-									</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)" theme-action="location"
-                                               data-value="Tokyo (Japan)">
-                                                <img src="./assets/images/flag/flag_jp.webp" alt="">
-                                                <span>
-										Japan - <b>Tokyo</b>
-									</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="table-theme">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                    <tr>
-                                        <th class="text-center">
-                                            <div class="checkbox-theme">
-                                                <input type="checkbox" id="checkbox-all">
-                                                <label for="checkbox-all">
-                                                    <span></span>
-                                                </label>
-                                            </div>
-                                        </th>
-                                        <th>
-                                            Tên dịch vụ
-                                        </th>
-                                        <th>
-                                            Loại
-                                        </th>
-                                        <th>
-                                            Quốc gia
-                                        </th>
-                                        <th>
-                                            Ngày hết hạn
-                                        </th>
-                                        <th>
-                                            Trạng thái
-                                        </th>
-                                        <th>
-                                        </th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="text-center">
-                                            <div class="checkbox-theme">
-                                                <input type="checkbox" id="checkbox-1">
-                                                <label for="checkbox-1">
-                                                    <span></span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="name">
-                                                dn2.nencer.com
-                                            </div>
-                                            <div class="text">1024 MB Cloud Compute - 66.42.51.72</div>
-                                        </td>
-                                        <td>
-                                            <div class="text">
-                                                Domain
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <img src="./assets/images/flag/flag_gb.webp" class="flag" alt="">
-                                                <div class="text">
-                                                    United Kingdom
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="text">
-                                                24/12/2021
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="text d-flex align-items-center">
-                                                <i class="far fa-play-circle text-success"></i>
-                                                Đang hoạt động
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="theme-action right" theme-parent="location"
-                                                 theme-position="right"
-                                                 theme-action="dropdown">
-                                                <a href="javascript:void(0)">
-                                                    <span></span>
-                                                    <span></span>
-                                                    <span></span>
-                                                </a>
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-eye"></i>
-                                                            Xem chi tiết
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-calendar-alt"></i>
-                                                            Gia hạn
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-edit"></i>
-                                                            Chỉnh sửa
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-trash"></i>
-                                                            Xoá
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">
-                                            <div class="checkbox-theme">
-                                                <input type="checkbox" id="checkbox-2">
-                                                <label for="checkbox-2">
-                                                    <span></span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="name">
-                                                dn2.nencer.com
-                                            </div>
-                                            <div class="text">1024 MB Cloud Compute - 66.42.51.72</div>
-                                        </td>
-                                        <td>
-                                            <div class="text">
-                                                Domain
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <img src="./assets/images/flag/flag_gb.webp" class="flag" alt="">
-                                                <div class="text">
-                                                    United Kingdom
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="text">
-                                                24/12/2021
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="text d-flex align-items-center">
-                                                <i class="far fa-times text-danger"></i>
-                                                Hết hạn
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="theme-action right" theme-parent="location"
-                                                 theme-position="right"
-                                                 theme-action="dropdown">
-                                                <a href="javascript:void(0)">
-                                                    <span></span>
-                                                    <span></span>
-                                                    <span></span>
-                                                </a>
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-eye"></i>
-                                                            Xem chi tiết
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-calendar-alt"></i>
-                                                            Gia hạn
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-edit"></i>
-                                                            Chỉnh sửa
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-trash"></i>
-                                                            Xoá
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">
-                                            <div class="checkbox-theme">
-                                                <input type="checkbox" id="checkbox-3">
-                                                <label for="checkbox-3">
-                                                    <span></span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="name">
-                                                dn2.nencer.com
-                                            </div>
-                                            <div class="text">1024 MB Cloud Compute - 66.42.51.72</div>
-                                        </td>
-                                        <td>
-                                            <div class="text">
-                                                Domain
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <img src="./assets/images/flag/flag_gb.webp" class="flag" alt="">
-                                                <div class="text">
-                                                    United Kingdom
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="text">
-                                                24/12/2021
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="text d-flex align-items-center">
-                                                <i class="far fa-play-circle text-success"></i>
-                                                Đang hoạt động
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="theme-action right" theme-parent="location"
-                                                 theme-position="right"
-                                                 theme-action="dropdown">
-                                                <a href="javascript:void(0)">
-                                                    <span></span>
-                                                    <span></span>
-                                                    <span></span>
-                                                </a>
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-eye"></i>
-                                                            Xem chi tiết
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-calendar-alt"></i>
-                                                            Gia hạn
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-edit"></i>
-                                                            Chỉnh sửa
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-trash"></i>
-                                                            Xoá
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">
-                                            <div class="checkbox-theme">
-                                                <input type="checkbox" id="checkbox-4">
-                                                <label for="checkbox-4">
-                                                    <span></span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="name">
-                                                dn2.nencer.com
-                                            </div>
-                                            <div class="text">1024 MB Cloud Compute - 66.42.51.72</div>
-                                        </td>
-                                        <td>
-                                            <div class="text">
-                                                Domain
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <img src="./assets/images/flag/flag_gb.webp" class="flag" alt="">
-                                                <div class="text">
-                                                    United Kingdom
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="text">
-                                                24/12/2021
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="text d-flex align-items-center">
-                                                <i class="far fa-times text-danger"></i>
-                                                Hết hạn
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="theme-action right" theme-parent="location"
-                                                 theme-position="right"
-                                                 theme-action="dropdown">
-                                                <a href="javascript:void(0)">
-                                                    <span></span>
-                                                    <span></span>
-                                                    <span></span>
-                                                </a>
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-eye"></i>
-                                                            Xem chi tiết
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-calendar-alt"></i>
-                                                            Gia hạn
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-edit"></i>
-                                                            Chỉnh sửa
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fas fa-trash"></i>
-                                                            Xoá
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="hosting">
-                        aaaa
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="body-wrapper">
+		<div class="body-heading">
+			<div class="body-heading_left">
+				<h1>Dashboard</h1>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+				</ol>
+			</div>
+		</div>
+		<div class="body-main">
+			<div class="body-inner">
+				<div class="search-sort">
+					<div class="d-flex align-content-center justify-content-between">
+						<div class="search">
+							<form action="" class="mb-0">
+								<div class="form-group mb-0">
+									<input type="text" placeholder="Search..." class="form-control">
+									<button><i class="far fa-search"></i></button>
+								</div>
+							</form>
+						</div>
+						<div class="sort theme-action right" theme-parent="location" theme-position="right"
+							 theme-action="dropdown">
+							<a href="javascript:void(0)" theme-id="setLocation">
+								<label>Sort</label>
+								<span>Location</span>
+							</a>
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="javascript:void(0)" theme-action="location"
+									   data-value="London (United Kingdom)">
+										<img src="./assets/images/flag/flag_gb.webp" alt="">
+										<span>
+											United Kingdom - <b>London</b>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" theme-action="location"
+									   data-value="Seoul (South Korea)">
+										<img src="./assets/images/flag/flag_kr.webp" alt="">
+										<span>
+											South Korea - <b>Seoul</b>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" theme-action="location"
+									   data-value="Tokyo (Japan)">
+										<img src="./assets/images/flag/flag_jp.webp" alt="">
+										<span>
+											Japan - <b>Tokyo</b>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" theme-action="location"
+									   data-value="London (United Kingdom)">
+										<img src="./assets/images/flag/flag_gb.webp" alt="">
+										<span>
+											United Kingdom - <b>London</b>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" theme-action="location"
+									   data-value="Seoul (South Korea)">
+										<img src="./assets/images/flag/flag_kr.webp" alt="">
+										<span>
+											South Korea - <b>Seoul</b>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" theme-action="location"
+									   data-value="Tokyo (Japan)">
+										<img src="./assets/images/flag/flag_jp.webp" alt="">
+										<span>
+											Japan - <b>Tokyo</b>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="table-theme">
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+							<tr>
+								<th class="text-center">
+									<div class="checkbox-theme">
+										<input type="checkbox" id="checkbox-all">
+										<label for="checkbox-all">
+											<span></span>
+										</label>
+									</div>
+								</th>
+								<th>
+									Tên dịch vụ
+								</th>
+								<th>
+									Loại
+								</th>
+								<th>
+									Quốc gia
+								</th>
+								<th>
+									Ngày hết hạn
+								</th>
+								<th>
+									Trạng thái
+								</th>
+								<th>
+								</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td class="text-center">
+									<div class="checkbox-theme">
+										<input type="checkbox" id="checkbox-1">
+										<label for="checkbox-1">
+											<span></span>
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="name">
+										dn2.nencer.com
+									</div>
+									<div class="text">1024 MB Cloud Compute - 66.42.51.72</div>
+								</td>
+								<td>
+									<div class="text">
+										Domain
+									</div>
+								</td>
+								<td>
+									<div class="d-flex align-items-center">
+										<img src="./assets/images/flag/flag_gb.webp" class="flag" alt="">
+										<div class="text">
+											United Kingdom
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="text">
+										24/12/2021
+									</div>
+								</td>
+								<td>
+									<div class="text d-flex align-items-center">
+										<i class="far fa-play-circle text-success"></i>
+										Đang hoạt động
+									</div>
+								</td>
+								<td>
+									<div class="theme-action right" theme-parent="location"
+										 theme-position="right"
+										 theme-action="dropdown">
+										<a href="javascript:void(0)">
+											<span></span>
+											<span></span>
+											<span></span>
+										</a>
+										<ul class="list-unstyled">
+											<li>
+												<a href="">
+													<i class="fas fa-eye"></i>
+													Xem chi tiết
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-calendar-alt"></i>
+													Gia hạn
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-edit"></i>
+													Chỉnh sửa
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-trash"></i>
+													Xoá
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-center">
+									<div class="checkbox-theme">
+										<input type="checkbox" id="checkbox-2">
+										<label for="checkbox-2">
+											<span></span>
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="name">
+										dn2.nencer.com
+									</div>
+									<div class="text">1024 MB Cloud Compute - 66.42.51.72</div>
+								</td>
+								<td>
+									<div class="text">
+										Domain
+									</div>
+								</td>
+								<td>
+									<div class="d-flex align-items-center">
+										<img src="./assets/images/flag/flag_gb.webp" class="flag" alt="">
+										<div class="text">
+											United Kingdom
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="text">
+										24/12/2021
+									</div>
+								</td>
+								<td>
+									<div class="text d-flex align-items-center">
+										<i class="far fa-times text-danger"></i>
+										Hết hạn
+									</div>
+								</td>
+								<td>
+									<div class="theme-action right" theme-parent="location"
+										 theme-position="right"
+										 theme-action="dropdown">
+										<a href="javascript:void(0)">
+											<span></span>
+											<span></span>
+											<span></span>
+										</a>
+										<ul class="list-unstyled">
+											<li>
+												<a href="">
+													<i class="fas fa-eye"></i>
+													Xem chi tiết
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-calendar-alt"></i>
+													Gia hạn
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-edit"></i>
+													Chỉnh sửa
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-trash"></i>
+													Xoá
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-center">
+									<div class="checkbox-theme">
+										<input type="checkbox" id="checkbox-3">
+										<label for="checkbox-3">
+											<span></span>
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="name">
+										dn2.nencer.com
+									</div>
+									<div class="text">1024 MB Cloud Compute - 66.42.51.72</div>
+								</td>
+								<td>
+									<div class="text">
+										Domain
+									</div>
+								</td>
+								<td>
+									<div class="d-flex align-items-center">
+										<img src="./assets/images/flag/flag_gb.webp" class="flag" alt="">
+										<div class="text">
+											United Kingdom
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="text">
+										24/12/2021
+									</div>
+								</td>
+								<td>
+									<div class="text d-flex align-items-center">
+										<i class="far fa-play-circle text-success"></i>
+										Đang hoạt động
+									</div>
+								</td>
+								<td>
+									<div class="theme-action right" theme-parent="location"
+										 theme-position="right"
+										 theme-action="dropdown">
+										<a href="javascript:void(0)">
+											<span></span>
+											<span></span>
+											<span></span>
+										</a>
+										<ul class="list-unstyled">
+											<li>
+												<a href="">
+													<i class="fas fa-eye"></i>
+													Xem chi tiết
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-calendar-alt"></i>
+													Gia hạn
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-edit"></i>
+													Chỉnh sửa
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-trash"></i>
+													Xoá
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-center">
+									<div class="checkbox-theme">
+										<input type="checkbox" id="checkbox-4">
+										<label for="checkbox-4">
+											<span></span>
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="name">
+										dn2.nencer.com
+									</div>
+									<div class="text">1024 MB Cloud Compute - 66.42.51.72</div>
+								</td>
+								<td>
+									<div class="text">
+										Domain
+									</div>
+								</td>
+								<td>
+									<div class="d-flex align-items-center">
+										<img src="./assets/images/flag/flag_gb.webp" class="flag" alt="">
+										<div class="text">
+											United Kingdom
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="text">
+										24/12/2021
+									</div>
+								</td>
+								<td>
+									<div class="text d-flex align-items-center">
+										<i class="far fa-times text-danger"></i>
+										Hết hạn
+									</div>
+								</td>
+								<td>
+									<div class="theme-action right" theme-parent="location"
+										 theme-position="right"
+										 theme-action="dropdown">
+										<a href="javascript:void(0)">
+											<span></span>
+											<span></span>
+											<span></span>
+										</a>
+										<ul class="list-unstyled">
+											<li>
+												<a href="">
+													<i class="fas fa-eye"></i>
+													Xem chi tiết
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-calendar-alt"></i>
+													Gia hạn
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-edit"></i>
+													Chỉnh sửa
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<i class="fas fa-trash"></i>
+													Xoá
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="quick-action">
+			<a href="javascript:void(0)">
+				<i></i>
+			</a>
+			<ul class="list-unstyled mb-0">
+				<li>
+					<a href="">
+						<i class="fas fa-credit-card"></i>
+						Add Credits
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<i class="fas fa-credit-card"></i>
+						Add Credits
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<i class="fas fa-credit-card"></i>
+						Add Credits
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
 <footer class="dashboard-footer">
-    <div class="footer-inner">
-        Copyright © 2021. Designed by&nbsp;<a href="">Nencer</a>. All rights reserved
-    </div>
+	<div class="footer-inner">
+		Copyright © 2021. Designed by&nbsp;<a href="">Nencer</a>. All rights reserved
+	</div>
 </footer>
 </body>
 </html>
