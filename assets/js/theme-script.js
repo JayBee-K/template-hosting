@@ -48,34 +48,6 @@ const changeLocation = function (e) {
 	});
 }
 
-function handleTouchMove(ev) {
-	if (!$(ev.target).closest('.body-dashboard #header').length) {
-		ev.preventDefault();
-	}
-}
-
-const themeNavigation = function (e) {
-	let elm = $('#navigation');
-	$('[theme-action=navigation]').click(function (e) {
-		e.stopPropagation();
-		$(this).removeClass('no-animation');
-		if (elm.is('.show')) {
-			elm.removeClass('show');
-			document.removeEventListener('touchmove', handleTouchMove);
-			$('body').css('overflow', '');
-		} else {
-			elm.addClass('show');
-			document.addEventListener('touchmove', handleTouchMove, {passive: false});
-			$('body').css('overflow', 'hidden');
-		}
-	});
-
-	$('[theme-action=overlay]').click(function () {
-		$(this).parent().removeClass('show');
-		$('body').css('overflow', '');
-	})
-}
-
 const initSelect2_only = function () {
 	$('[theme-action=select2-only]').each(function () {
 		$(this).select2({
@@ -129,15 +101,67 @@ const activeSwitch = function (e) {
 	});
 }
 
+const toggleSearchMB = function (e) {
+	$('.action-search').click(function (e) {
+		$(this).closest('li').toggleClass('is-show');
+	});
+
+	$(document).mouseup(function (e) {
+		let elm = $('.action-form').closest('li');
+		elm.is(e.target) || 0 !== elm.has(e.target).length || (
+			elm.removeClass('is-show')
+		)
+	})
+}
+
+const toggleUserMB = function (e) {
+	$('.action-user').click(function (e) {
+		$(this).closest('li').toggleClass('is-show');
+	});
+
+	$(document).mouseup(function (e) {
+		let elm = $('.action-user').closest('li');
+		elm.is(e.target) || 0 !== elm.has(e.target).length || (
+			elm.removeClass('is-show')
+		)
+	})
+}
+
+
+function handleTouchMove(ev) {
+	if (!$(ev.target).closest('.template-dashboard').length) {
+		ev.preventDefault();
+	}
+}
+
+const dashboardNavigation = function (e) {
+	$('#dashboard-hamburger').click(function (e) {
+		if ($('body.template-dashboard').is('.is-active')) {
+			$('body.template-dashboard').removeClass('is-active').css('overflow', '');
+			document.removeEventListener('touchmove', handleTouchMove);
+		} else {
+			$('body.template-dashboard').addClass('is-active').css('overflow', 'hidden');
+			document.addEventListener('touchmove', handleTouchMove, {passive: false});
+		}
+	});
+
+	$('.template-dashboard .dashboard-overlay').click(function () {
+		$('body.template-dashboard').removeClass('is-active').css('overflow', '');
+		document.removeEventListener('touchmove', handleTouchMove);
+	})
+}
+
 $(function () {
+	dashboardNavigation();
 	themeDropdown();
 	closeMessege();
 	changeLocation();
-	themeNavigation();
 	initSelect2_only();
 	viewPass();
 	showEdit();
 	activeSwitch();
+	toggleSearchMB();
+	toggleUserMB();
 	Waves.init();
 
 	$('[data-toggle="tooltip"]').tooltip();

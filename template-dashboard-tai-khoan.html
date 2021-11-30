@@ -51,7 +51,7 @@
 <body class="template-dashboard">
 <header class="dashboard-header">
 	<div class="header-left">
-		<div class="hamburger-wrapper">
+		<div class="hamburger-wrapper" id="dashboard-hamburger">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
 				 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
 				 class="feather feather-align-center status_toggle middle" id="sidebar-toggle">
@@ -67,7 +67,7 @@
 			</a>
 		</div>
 	</div>
-	<div class="header-right">
+	<div class="header-right d-none d-lg-flex">
 		<div class="search-wrapper">
 			<form action="">
 				<input type="text" class="form-control" placeholder="Enter keyword search...">
@@ -121,7 +121,70 @@
 			</ul>
 		</div>
 	</div>
+	<div class="header-action d-block d-lg-none">
+		<ul class="list-unstyled mb-0">
+			<li>
+				<a class="action-user" href="javascript:void(0)">
+					<i class="fal fa-user-alt"></i>
+				</a>
+				<ul class="list-unstyled mb-0">
+					<li class="price">
+						<a href="">
+							<span>
+								<i class="fas fa-dollar-sign mr-1"></i>
+								Số dư:</span>
+							<span>
+								<b>199.000</b> <sup>VNĐ</sup>
+							</span>
+						</a>
+					</li>
+					<li class="item">
+						<a href="#">
+							Thông tin cá nhân
+						</a>
+					</li>
+					<li class="item">
+						<a href="">
+							Lịch sử giao dịch
+						</a>
+					</li>
+					<li class="item">
+						<a href="">
+							Bảo mật tài khoản
+						</a>
+					</li>
+					<li class="item">
+						<a href="">
+							Thông báo
+						</a>
+					</li>
+					<li class="item">
+						<a href="">
+							Đổi mật khẩu
+						</a>
+					</li>
+					<li class="item">
+						<a href="">
+							Đăng xuất
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a class="action-search" href="javascript:void(0)">
+					<i class="fal fa-search"></i>
+				</a>
+				<div class="action-form">
+					<form action="">
+						<input type="text" class="form-control" placeholder="Enter keyword search...">
+						<button class="btn"><i class="fal fa-search"></i></button>
+					</form>
+				</div>
+			</li>
+		</ul>
+	</div>
 </header>
+<div class="dashboard-overlay"></div>
 <div class="dashboard-sidebar">
 	<ul class="list-unstyled mb-0">
 		<li class="active">
