@@ -4348,6 +4348,8 @@ body {
 .dashboard-body .body-wrapper .body-main .checkbox-theme > input {
     width: 0;
     height: 0;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .dashboard-body .body-wrapper .body-main .checkbox-theme > label {
